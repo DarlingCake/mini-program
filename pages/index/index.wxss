@@ -1,0 +1,87 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* 还有一个对应的vw */
+}
+
+.list-wrap {
+  flex-grow: 1;
+  position: relative;
+}
+
+.list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.list-scroll-view {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.course-card {
+  width: 47vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* margin:10px; */
+}
+
+.course-card image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.price, .active {
+  color: #23b8ff;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.head-item {
+  font-size: 14px;
+  align-items: center;
+}
+
+.head-item image {
+  width: 80px;
+  margin: 0 10px;
+}
+
+.zhanman{
+  height: 30px;
+  flex-grow: 1;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto 10px auto 0;
+  border-radius: 10px;
+  color: #aaa;
+}
+
+.guide {
+  display: flex;
+  justify-content: space-between;
+}
+
+.guide-item {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1;
+  padding: 20px;
+}
+
+.guide-item image {
+  width: 38px;
+}
